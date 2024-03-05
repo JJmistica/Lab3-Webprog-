@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<html>
+	
+	<head>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Poppins', sans-serif;
+				}
+			
+			body {
+				background: #081b29;
+				color: #ededed;
+				}
+				
+			.header {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				padding: 20px 10%;
+				background: transparent;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				z-index: 100;
+				}
+			
+			.logo {
+				font-size: 25px;
+				color: #ededed;
+				text-decoration: none;
+				font-weight: 600;
+				}
+			
+			.navbar a {
+				font-size: 18px;
+				color: #ededed;
+				text-decoration: none;
+				font-weight: 500;
+				margin-left: 35px;
+				transition: .3s;
+				}
+			
+			.navbar a:hover,
+			.navbar a.active {
+				color: #00abf0;
+				}
+			
+			.home {
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				}
+				
+				
+				
+				
+				
+			
+			
+		</style>
+	</head>
+	
+		<body>
+		
+			<header class="header">
+				<a href-"#" class="logo">JJMistica</a>
+				
+				<nav class="navbar">
+					<a href="#" class="active">Home</a>
+					<a href="#">About</a>
+					<a href="#">Works</a>
+					<a href="#">Contact</a>
+				</nav>
+				
+			</header>
+			
+			<section class="home">
+				<div class="home-content">
+					<h1>Hi, I am Julian Sebastian Mistica</h1>
+					
+					<h3>SoCIT Student of Asia Pacific College</h3>
+					
+					<p>This is my project for my WEBPROG Class 2023-2024 in my term 2 studying at Asia Pacific College.</p>
+					
+					<div class"btn-box">
+						<a href="#">Wooooaah!</a>
+						<a href="#">Meeeeehh!</a>
+					</div>
+					
+				</div>
+			</section>
+			
+		</body>
+		
+	</html>
